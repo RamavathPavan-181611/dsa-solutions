@@ -1,9 +1,9 @@
 # DSA & Problem Solving Portfolio
 
-
 ## 🚀 Git Setup & Workflow Guide
 
 ### 1. Initialize & Link a New Repository
+
 Run these commands inside your project folder to set up Git and connect it to GitHub:
 
 ```bash
@@ -29,7 +29,9 @@ git remote add origin [https://github.com/](https://github.com/)<your-username>/
 git push -u origin main
 
 ```
+
 ### 2. Daily Workflow( Adding New Solutions)
+
 ```bash
 # Check modified or untracked files
 git status
@@ -44,7 +46,9 @@ git commit -m "Add <problem-name> solution"
 git push
 
 ```
+
 ### 3. Useful Commands
+
 ```bash
  # Check commit history
 git log --oneline
@@ -54,3 +58,21 @@ git remote -v
 
  # Pull latest changes from remote
 git pull origin main
+
+```
+
+### 4. Steps to retrieve a repository from GitHub back onto local machine
+
+```bash
+# move to storage repository
+cd ~/Documents
+
+# Clone the repository using your GitHub URL
+git clone https://github.com/RamavathPavan-181611/dsa-solutions.git
+
+# Step inside the newly downloaded directory
+cd dsa-solutions
+
+
+
+```
